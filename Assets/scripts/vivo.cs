@@ -1,7 +1,6 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class vivo : MonoBehaviour
+public class Vivo : MonoBehaviour
 {
     #region core
 

@@ -1,7 +1,7 @@
 using Unity.Cinemachine;
 using UnityEngine;
 
-public class jugador : vivo   //aqui se heredan los atributos de la clase vivo
+public class Jugador : Vivo   //aqui se heredan los atributos de la clase vivo
 {
     [SerializeField] private CinemachineCamera camara;
     //se ejecuta cada frame, si tenemos 60 frames se ejecuta 60 veces
