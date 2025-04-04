@@ -5,20 +5,24 @@ TagManager:
   serializedVersion: 3
   tags:
   - Muerte
+  - Enemigo
+  - ZonaSegura
+  - Suelo
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Suelo
   - Water
   - UI
   - 
   - 
   - 
   - 
+  - Enemies
   - jugador
-  - 
-  - 
+  - ZonaSegura
   - 
   - 
   - 
@@ -41,6 +45,15 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ZonaSegura
+    uniqueID: 2516257865
+    locked: 0
+  - name: Enemigos
+    uniqueID: 1312872301
+    locked: 0
+  - name: Jugador
+    uniqueID: 4284237537
     locked: 0
   m_RenderingLayers:
   - Default
