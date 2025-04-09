@@ -1,6 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
@@ -39,6 +40,7 @@ public class MainMenuController : MonoBehaviour
     }
 
     private void OnPlayBtnClicked(){
+        SceneManager.LoadScene(1);
         gameObject.SetActive(false);
     }
 
