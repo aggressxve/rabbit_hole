@@ -67,7 +67,7 @@ public class JugadorScript : MonoBehaviour
 
         Girar(); //Funcion que se encarga de girar al jugador al lado a donde esta avanzando
 
-        Agacharse(); //Funcion que se encarga de agachar al jugador si presionamos el boton de agacharse
+        Agacharse(); //Funcion que se encarga de agachar al jugador si presionamos el boton de agacharse.
 
         ControlesAnimaciones(); //Funcion que se encarga de controlar las animaciones del jugador
     }
