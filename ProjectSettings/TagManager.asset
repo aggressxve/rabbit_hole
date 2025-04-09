@@ -9,6 +9,7 @@ TagManager:
   - ZonaSegura
   - Suelo
   - Checkpoint
+  - MenuPausa
   layers:
   - Default
   - TransparentFX

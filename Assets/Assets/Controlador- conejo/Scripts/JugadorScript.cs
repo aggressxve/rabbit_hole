@@ -35,6 +35,8 @@ public class JugadorScript : MonoBehaviour
     [Tooltip("Layer que indica que objectos son parte del suelo")]
     [SerializeField] private LayerMask layerSuelo;
 
+    [SerializeField] private GameObject menuPausa;
+
 
     //Variables no visibles
     private float horizontal; // variable para sistema de movimiento de unity
@@ -66,6 +68,8 @@ public class JugadorScript : MonoBehaviour
         Agacharse(); //Funcion que se encarga de agachar al jugador si presionamos el boton de agacharse.
 
         ControlesAnimaciones(); //Funcion que se encarga de controlar las animaciones del jugador
+        
+        Pausa();
     }
 
     void FixedUpdate()
@@ -105,6 +109,12 @@ public class JugadorScript : MonoBehaviour
             pieCollider.enabled = true;
             agachadoCollider.enabled = false;
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        }
+    }
+
+    private void Pausa(){
+        if(Input.GetKeyDown(KeyCode.Escape)){
+            menuPausa.SetActive(true);
         }
     }
 
