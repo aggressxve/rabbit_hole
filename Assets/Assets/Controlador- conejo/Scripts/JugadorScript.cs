@@ -180,6 +180,7 @@ public class JugadorScript : MonoBehaviour
         if(collision.gameObject.tag == "Enemigo")
         {
            muerto = true;
+           GameManager.instance.PerderVida();
         }
     }
 
