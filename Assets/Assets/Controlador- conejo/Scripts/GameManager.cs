@@ -22,7 +22,6 @@ public class GameManager : MonoBehaviour
     public void PerderVida()
     {
         vidas--;
-        Debug.Log("Vidas: " + vidas);
         if(vidas <= 0){
             GameOver();
         }
@@ -32,5 +31,6 @@ public class GameManager : MonoBehaviour
         GameObject musicManager = GameObject.Find("MusicManager");
         Destroy(musicManager);
         SceneManager.LoadScene("GameOver");
+        vidas = 5;
     }
 }
