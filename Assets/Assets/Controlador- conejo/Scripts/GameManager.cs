@@ -29,6 +29,8 @@ public class GameManager : MonoBehaviour
     }
 
     public void GameOver(){
+        GameObject musicManager = GameObject.Find("MusicManager");
+        Destroy(musicManager);
         SceneManager.LoadScene("GameOver");
     }
 }
