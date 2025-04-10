@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -28,6 +29,6 @@ public class GameManager : MonoBehaviour
     }
 
     public void GameOver(){
-        Debug.Log("Juego terminado, enviar a GameOver");
+        SceneManager.LoadScene("GameOver");
     }
 }

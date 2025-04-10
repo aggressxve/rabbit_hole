@@ -56,6 +56,7 @@
     <Compile Include="Assets\Assets\Scripts\PasarNivel.cs" />
     <Compile Include="Assets\Assets\Controlador- conejo\Scripts\GameManager.cs" />
     <Compile Include="Assets\Assets\Controlador- conejo\Scripts\PersistentCanvas.cs" />
+    <Compile Include="Assets\Assets\Scenes\UI\Scripts\GameOverScreen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -78,6 +79,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Assets\Scenes\UI\game-over.uxml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />

@@ -21,9 +21,6 @@ public class MainMenuController : MonoBehaviour
         playBtn = ui.Q<Button>("IniciarBtn");
         playBtn.clicked += OnPlayBtnClicked;
 
-        soundBtn = ui.Q<Button>("SonidoBtn");
-        soundBtn.clicked += OnSoundBtnClicked;
-
         quitBtn = ui.Q<Button>("SalirBtn");
         quitBtn.clicked += OnQuitBtnClicked;
     }
@@ -33,10 +30,6 @@ public class MainMenuController : MonoBehaviour
         #if UNITY_EDITOR
             EditorApplication.isPlaying = false;
         #endif
-    }
-
-    private void OnSoundBtnClicked(){
-        Debug.Log("Sound Options");
     }
 
     private void OnPlayBtnClicked(){
